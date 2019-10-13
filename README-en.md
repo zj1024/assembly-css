@@ -1,8 +1,8 @@
-<div style="text-align:center;"><img src="https://zj1024.github.io/quickly-css/images/logo.png" /></div>
+<div style="text-align:center;"><img src="https://zj1024.github.io/assembly-css/images/logo.png" /></div>
 
 ![MIT](https://img.shields.io/badge/license-MIT-green) ![SIZE](https://img.shields.io/badge/size-60%20kb-blue) ![VERSION](https://img.shields.io/badge/version-1.1.0-orange)
 
-<div style="text-align:center; font-weight: bold; font-size: 30px;">QuicklyCss</div>
+<div style="text-align:center; font-weight: bold; font-size: 30px;">AssemblyCss</div>
 
 <div style="text-align:center;">A library for quickly writing CSS by combining classes</div>
 
@@ -16,36 +16,36 @@ QuicklyCSS is a CSS library built with `sass`, `gulp` and provides basic CSS sty
 
 ## Documentation
 
-English | [中文](https://github.com/zj1024/quickly-css/blob/master/README.md)
+English | [中文](https://github.com/zj1024/assembly-css/blob/master/README.md)
 
 ## Installation
 
 ### CDN
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.css">
 ```
 
 The production environment use a compressed version
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.min.css">
 ```
 
 ### NPM
 
 ```Shell
-$ npm install quickly-css
+$ npm install assembly-css
 ```
 
 ```js
-import 'quickly-css/lib/index.scss'
+import 'assembly-css/lib/index.scss'
 ```
 
 ### Quickly develop a three-column layout
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.css">
 <section class="flex j-between">
   <div class="w-200 bg-green">left</div>
   <div class="flex-1 bg-blue">content</div>
@@ -55,7 +55,7 @@ import 'quickly-css/lib/index.scss'
 
 Result
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.css">
 <section class="flex j-between">
   <div class="w-200 bg-green">left</div>
   <div class="flex-1 bg-blue">content</div>
@@ -70,7 +70,7 @@ Result
 
 ## Issues
 
-You can ask questions here [issues](https://github.com/zj1024/quickly-css/issues)
+You can ask questions here [issues](https://github.com/zj1024/assembly-css/issues)
 
 ## Last
 

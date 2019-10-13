@@ -14,6 +14,6 @@ git add -A
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:zj1024/quickly-css.git master:gh-pages
+git push -f git@github.com:zj1024/assembly-css.git master:gh-pages
 
 cd -

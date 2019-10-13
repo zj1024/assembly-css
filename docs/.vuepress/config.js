@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'QuicklyCss',
+  title: 'AssemblyCss',
   description: 'A library for quickly writing CSS by combining classes',
   themeConfig: {
     smoothScroll: true,
@@ -8,7 +8,7 @@ module.exports = {
       { text: '指南', link: '/guide/' },
       { text: '文档', link: '/doc/' },
       { text: '更新日志', link: '/blog/' },
-      { text: 'Github', link: 'https://github.com/zj1024/quickly-css' }
+      { text: 'Github', link: 'https://github.com/zj1024/assembly-css' }
     ],
     sidebar: {
       '/guide/': [''],
@@ -16,5 +16,5 @@ module.exports = {
       '/blog/': ['']
     }
   },
-  base: '/quickly-css/'
+  base: '/assembly-css/'
 }

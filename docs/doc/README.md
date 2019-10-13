@@ -4,7 +4,7 @@
 
 > 由于设计规则简单, 建议粗读之后接入自己的项目中体验, 或直接阅读源码
 
-<style src="../.vuepress/public/quickly-css.css"></style>
+<style src="../.vuepress/public/assembly-css.css"></style>
 
 ## background
 

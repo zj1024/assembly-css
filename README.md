@@ -1,4 +1,4 @@
-![quickly-css](https://zj1024.github.io/quickly-css/images/logo.png)
+![assembly-css](https://zj1024.github.io/assembly-css/images/logo.png)
 
 ![MIT](https://img.shields.io/badge/license-MIT-green) ![SIZE](https://img.shields.io/badge/size-60%20kb-blue) ![VERSION](https://img.shields.io/badge/version-1.1.0-orange)
 
@@ -10,43 +10,43 @@
 
 ## 介绍
 
-quickly-css 是一个通过`sass`, `gulp` 构建完成的css库, 提供了基础的css样式类, 在开发大型项目避免书写重复的css样式。
+assembly-css 是一个通过`sass`, `gulp` 构建完成的css库, 提供了基础的css样式类, 在开发大型项目避免书写重复的css样式。
 
 **过多的考虑** 在小型项目中由于代码量不大, 加上库的体积, 反而不建议使用
 
 ## 文档
 
-中文 | [英文](https://github.com/zj1024/quickly-css/blob/master/README-en.md)
+中文 | [英文](https://github.com/zj1024/assembly-css/blob/master/README-en.md)
 
 ## 安装
 
 ### CDN 引入
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.css">
 ```
 
 生产环境使用压缩版本
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.min.css">
 ```
 
 ### NPM 引入
 
 ```Shell
 # 最新稳定版
-$ npm install quickly-css
+$ npm install assembly-css
 ```
 
 ```js
-import 'quickly-css/lib/index.scss'
+import 'assembly-css/lib/index.scss'
 ```
 
 ### 快速开发三栏布局
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.css">
 <section class="flex j-between">
   <div class="w-200 bg-green">left</div>
   <div class="flex-1 bg-blue">content</div>
@@ -56,7 +56,7 @@ import 'quickly-css/lib/index.scss'
 
 渲染结果
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.css">
 <section class="flex j-between">
   <div class="w-200 bg-green">left</div>
   <div class="flex-1 bg-blue">content</div>
@@ -71,7 +71,7 @@ import 'quickly-css/lib/index.scss'
 
 ## 提问
 
-你可以在[issues](https://github.com/zj1024/quickly-css/issues)直接提问
+你可以在[issues](https://github.com/zj1024/assembly-css/issues)直接提问
 
 ## 最后
 

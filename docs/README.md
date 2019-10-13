@@ -1,16 +1,16 @@
 ---
 home: true
-title: QuicklyCss
-heroText: QuicklyCss
+title: AssemblyCss
+heroText: AssemblyCss
 heroImage: /images/logo.png
 tagline: 通过组合class方式快速书写css的库
 actionText: 快速上手 ➡
 actionLink: /guide/
 meta:
   - name: description
-    content: 通过组合class方式快速书写css的库, A library for quickly writing CSS by combining classes
+    content: AssemblyCss, assembly-css通过组合class方式快速书写css的库, A library for quickly writing CSS by combining classes
   - name: keywords
-    content: quickly-css, css
+    content: AssemblyCss, css, assembly-css
 features:
 - title: 方便快捷
   details: 通过npm安装或直接引入css文件, 随时可用, 在大型项目中表现尤为出色
@@ -23,10 +23,10 @@ footer: MIT Licensed | Copyright © 2019-present 京宇jingyu
 
 ### 快速开发三栏布局
 
-**使用 quickly-css**
+**使用 assembly-css**
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.css">
 <section class="flex j-between">
   <div class="w-200 bg-green">left</div>
   <div class="flex-1 bg-blue">content</div>
@@ -37,7 +37,7 @@ footer: MIT Licensed | Copyright © 2019-present 京宇jingyu
 **渲染结果**
 
 <ClientOnly>
-  <style src="./.vuepress/public/quickly-css.css"></style>
+  <style src="./.vuepress/public/assembly-css.css"></style>
   <section class="flex j-between">
     <div class="w-200 bg-green">left</div>
     <div class="flex-1 bg-blue">content</div>

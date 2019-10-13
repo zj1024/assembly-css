@@ -4,9 +4,9 @@
 
 通过组合 class 方式快速书写 css 的库.
 
-开发 quickly-css 的目的就是为了在写 css 时简化开发的步骤, 传统开发方式将 css 单独拆成文件引入, `Vue`中在 template 文件最下方书写, `React`中可以通过把 css All in js. 上述的方案都是通过 DOM 中定义 class 来连接 css 与 html.
+开发 assembly-css 的目的就是为了在写 css 时简化开发的步骤, 传统开发方式将 css 单独拆成文件引入, `Vue`中在 template 文件最下方书写, `React`中可以通过把 css All in js. 上述的方案都是通过 DOM 中定义 class 来连接 css 与 html.
 
-我们通过一个例子-`三栏布局`来直观感受 quickly-css 带来的便捷:
+我们通过一个例子-`三栏布局`来直观感受 assembly-css 带来的便捷:
 
 **传统开发方式**
 
@@ -57,7 +57,7 @@
   </section>
 </ClientOnly>
 
-**使用 quickly-css**
+**使用 assembly-css**
 
 ```html
 <section class="flex j-between">
@@ -70,7 +70,7 @@
 **渲染结果**
 
 <ClientOnly>
-  <style src="../.vuepress/public/quickly-css.css"></style>
+  <style src="../.vuepress/public/assembly-css.css"></style>
   <section class="flex j-between">
     <div class="w-200 bg-green">left</div>
     <div class="flex-1 bg-blue">content</div>
@@ -78,33 +78,33 @@
   </section>
 </ClientOnly>
 
-没错, 在书写过程中直接跳过了连接html和css的环节, 取而代之的是引入我们提前写好的库, 通过class类名之间的组合来生成样式, 而`quickly-css`就是具备了组合类产生样式的能力.
+没错, 在书写过程中直接跳过了连接html和css的环节, 取而代之的是引入我们提前写好的库, 通过class类名之间的组合来生成样式, 而`assembly-css`就是具备了组合类产生样式的能力.
 
-在设计quickly-css时, 选取了最常用的19个大类别, `background`, `border`, `box`, `cursor`, `display`, `flex`, `float`, `font-size`, `font-weight`, `line-height`, `link`, `overflow`, `position`, `size`, `text-align`, `text-color`, `vertical-align`, `visibility`, `white-space`, 在[文档](/doc/)中都会详细说明
+在设计assembly-css时, 选取了最常用的19个大类别, `background`, `border`, `box`, `cursor`, `display`, `flex`, `float`, `font-size`, `font-weight`, `line-height`, `link`, `overflow`, `position`, `size`, `text-align`, `text-color`, `vertical-align`, `visibility`, `white-space`, 在[文档](/doc/)中都会详细说明
 
 ## 安装
 
 ### CDN 引入
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.css">
 ```
 
 生产环境使用压缩版本
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.min.css">
 ```
 
 ### NPM 引入
 
 ```Shell
 # 最新稳定版
-$ npm install quickly-css
+$ npm install assembly-css
 ```
 
 ```js
-import 'quickly-css/lib/index.scss'
+import 'assembly-css/lib/index.scss'
 ```
 
 
@@ -113,8 +113,8 @@ import 'quickly-css/lib/index.scss'
 ```js
 .
 ├── dist // 打包输出的文件
-│   ├── quickly-css.css
-│   └── quickly-css.min.css
+│   ├── assembly-css.css
+│   └── assembly-css.min.css
 ├── lib
 │   ├── _reset.scss // 格式化css
 │   ├── _style.scss // 全局样式
@@ -148,4 +148,4 @@ import 'quickly-css/lib/index.scss'
 
 ## 下一步
 
-开始了解quickly-css提供的样式[文档](/doc/)
+开始了解assembly-css提供的样式[文档](/doc/)
