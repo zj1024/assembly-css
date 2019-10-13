@@ -6,10 +6,13 @@
 
 <h1 align="center">AssemblyCss</h1>
 
-<p align="center">通过组合class方式快速书写css的库</p>
+<div align="center">
+
+通过组合class方式快速书写css的库
 
 ![MIT](https://img.shields.io/badge/license-MIT-green) ![SIZE](https://img.shields.io/badge/size-60%20kb-blue) ![VERSION](https://img.shields.io/badge/version-1.1.0-orange)
 
+</div>
 
 ---
 

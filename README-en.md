@@ -6,9 +6,13 @@
 
 <h1 align="center">AssemblyCss</h1>
 
-<p align="center">A library for quickly writing CSS by combining classes</p>
+<div align="center">
+
+A library for quickly writing CSS by combining classes
 
 ![MIT](https://img.shields.io/badge/license-MIT-green) ![SIZE](https://img.shields.io/badge/size-60%20kb-blue) ![VERSION](https://img.shields.io/badge/version-1.1.0-orange)
+
+</div>
 
 ---
 
