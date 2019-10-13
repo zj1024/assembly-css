@@ -2,9 +2,9 @@
 
 ![MIT](https://img.shields.io/badge/license-MIT-green) ![SIZE](https://img.shields.io/badge/size-60%20kb-blue) ![VERSION](https://img.shields.io/badge/version-1.1.0-orange)
 
-**<center><font size="6">QuicklyCss</font></center>**
+<div style="text-align:center; font-weight: bold; font-size: 30px;">QuicklyCss</div>
 
-<center>通过组合class方式快速书写css的库</center>
+<div style="text-align:center;">通过组合class方式快速书写css的库</div>
 
 ---
 

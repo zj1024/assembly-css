@@ -1,10 +1,10 @@
-![quickly-css](https://zj1024.github.io/quickly-css/images/logo.png)
+<div style="text-align:center;"><img src="https://zj1024.github.io/quickly-css/images/logo.png" /></div>
 
 ![MIT](https://img.shields.io/badge/license-MIT-green) ![SIZE](https://img.shields.io/badge/size-60%20kb-blue) ![VERSION](https://img.shields.io/badge/version-1.1.0-orange)
 
-**<center><font size="6">QuicklyCss</font></center>**
+<div style="text-align:center; font-weight: bold; font-size: 30px;">QuicklyCss</div>
 
-<center>A library for quickly writing CSS by combining classes</center>
+<div style="text-align:center;">A library for quickly writing CSS by combining classes</div>
 
 ---
 
