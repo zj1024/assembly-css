@@ -15,5 +15,6 @@ module.exports = {
       '/doc/': [''],
       '/blog/': ['']
     }
-  }
+  },
+  base: '/quickly-css/'
 }
