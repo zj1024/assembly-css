@@ -1,10 +1,10 @@
 <div style="text-align:center;"><img src="https://zj1024.github.io/assembly-css/images/logo.png" /></div>
 
+<h1 align="center">AssemblyCss</h1>
+
+<p align="center">A library for quickly writing CSS by combining classes</p>
+
 ![MIT](https://img.shields.io/badge/license-MIT-green) ![SIZE](https://img.shields.io/badge/size-60%20kb-blue) ![VERSION](https://img.shields.io/badge/version-1.1.0-orange)
-
-<div style="text-align:center; font-weight: bold; font-size: 30px;">AssemblyCss</div>
-
-<div style="text-align:center;">A library for quickly writing CSS by combining classes</div>
 
 ---
 
