@@ -1,0 +1,23 @@
+// 用于文档使用的quickly-css版本
+// 由于vuepress直接对标签设置的样式
+// quickly-css打包去掉reset文件, 避免影响vuepress默认样式
+@import "background";
+@import "border";
+@import "box";
+@import "cursor";
+@import "display";
+@import "flex";
+@import "float";
+@import "font-size";
+@import "font-weight";
+@import "line-height";
+@import "link";
+@import "overflow";
+@import "position";
+@import "size";
+@import "text-align";
+@import "text-color";
+@import "vertical-align";
+@import "visibility";
+@import "white-space";
+@import "sundry";

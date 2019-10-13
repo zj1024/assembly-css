@@ -1,0 +1,22 @@
+
+@import "var";
+
+@each $type in static, relative, absolute, fixed, sticky {
+  .#{$type} {
+    position: $type;
+  }
+}
+
+@each $size in $box-sizes {
+  @each $side in top, right, bottom, left {
+    .#{$side}-#{$size} {
+      #{$side}: #{$size}px;
+    }
+  }
+}
+
+@each $size in $box-sizes {
+  .z-index-#{$size} {
+    z-index: #{$size};
+  }
+}

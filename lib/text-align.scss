@@ -1,0 +1,8 @@
+/**
+  * 任何的版本的 Internet Explorer （包括 IE8）都不支持属性值 "inherit"
+  */
+@each $type in left, right, center, justify, inherit {
+  .text-#{$type} {
+    text-align: #{$type};
+  }
+}

@@ -1,0 +1,5 @@
+@each $type in baseline, sub, super, top, text-top, middle, bottom, text-bottom, inherit {
+  .v-a-#{$type} {
+    vertical-align: $type;
+  }
+}
