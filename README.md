@@ -1,4 +1,8 @@
-![assembly-css](https://zj1024.github.io/assembly-css/images/logo.png)
+<p align="center">
+  <a href="https://zj1024.github.io/assembly-css/">
+    <img width="200" src="https://zj1024.github.io/assembly-css/images/logo.png">
+  </a>
+</p>
 
 <h1 align="center">AssemblyCss</h1>
 
