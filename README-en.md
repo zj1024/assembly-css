@@ -4,38 +4,37 @@
 
 **<center><font size="6">QuicklyCss</font></center>**
 
-<center>通过组合class方式快速书写css的库</center>
+<center>A library for quickly writing CSS by combining classes</center>
 
 ---
 
-## 介绍
+## Introduction
 
-quickly-css 是一个通过`sass`, `gulp` 构建完成的css库, 提供了基础的css样式类, 在开发大型项目避免书写重复的css样式。
+QuicklyCSS is a CSS library built with `sass`, `gulp` and provides basic CSS style classes to avoid writing repetitive CSS styles on large projects.
 
-**过多的考虑** 在小型项目中由于代码量不大, 加上库的体积, 反而不建议使用
+**overthink** It is not recommended for small projects because of the small amount of code and the size of the library
 
-## 文档
+## Documentation
 
-中文 | [英文](https://github.com/zj1024/quickly-css/blob/master/README-en.md)
+English | [中文](https://github.com/zj1024/quickly-css/blob/master/README.md)
 
-## 安装
+## Installation
 
-### CDN 引入
+### CDN
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.css">
 ```
 
-生产环境使用压缩版本
+The production environment use a compressed version
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.min.css">
 ```
 
-### NPM 引入
+### NPM
 
 ```Shell
-# 最新稳定版
 $ npm install quickly-css
 ```
 
@@ -43,7 +42,7 @@ $ npm install quickly-css
 import 'quickly-css/lib/index.scss'
 ```
 
-### 快速开发三栏布局
+### Quickly develop a three-column layout
 
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.css">
@@ -54,7 +53,7 @@ import 'quickly-css/lib/index.scss'
 </section>
 ```
 
-渲染结果
+Result
 
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/quickly-css/dist/quickly-css.css">
 <section class="flex j-between">
@@ -63,16 +62,16 @@ import 'quickly-css/lib/index.scss'
   <div class="w-200 bg-green">right</div>
 </section>
 
-## 优点 ##
+## Advantages ##
 
-- 方便快捷 通过npm安装或直接引入css文件, 随时可用, 在大型项目中表现尤为出色
-- 代码样式逻辑更加清晰
-- 易维护 在团队开发过程中, 修改样式只需要更改DOM上的类即可, 避免了DOM逐级嵌套样式的混乱
+- Easy to install or directly introduce CSS files through NPM, ready to use, especially in large projects
+- The code style logic is clearer
+- Easy maintenance during team development, changing styles only requires changing classes on the DOM, avoiding the confusion of hierarchical nested DOM styles
 
-## 提问
+## Issues
 
-你可以在[issues](https://github.com/zj1024/quickly-css/issues)直接提问
+You can ask questions here [issues](https://github.com/zj1024/quickly-css/issues)
 
-## 最后
+## Last
 
-如果你对这个项目有兴趣, 欢迎PR
+If you are interested in this project, welcome to PR

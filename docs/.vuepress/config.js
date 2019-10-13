@@ -8,7 +8,7 @@ module.exports = {
       { text: '指南', link: '/guide/' },
       { text: '文档', link: '/doc/' },
       { text: '更新日志', link: '/blog/' },
-      { text: 'Gitee', link: 'https://gitee.com/zj1024/quickly-css' }
+      { text: 'Github', link: 'https://github.com/zj1024/quickly-css' }
     ],
     sidebar: {
       '/guide/': [''],
