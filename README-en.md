@@ -61,14 +61,7 @@ import 'assembly-css/lib/index.scss'
 </section>
 ```
 
-Result
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.css">
-<section class="flex j-between">
-  <div class="w-200 bg-green">left</div>
-  <div class="flex-1 bg-blue">content</div>
-  <div class="w-200 bg-green">right</div>
-</section>
+You can copy it directly into your demo file and try it out, or you can click [here](https://zj1024.github.io/assembly-css/) to see an example
 
 ## Advantages ##
 

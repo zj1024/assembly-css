@@ -62,14 +62,7 @@ import 'assembly-css/lib/index.scss'
 </section>
 ```
 
-渲染结果
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/assembly-css/dist/assembly-css.css">
-<section class="flex j-between">
-  <div class="w-200 bg-green">left</div>
-  <div class="flex-1 bg-blue">content</div>
-  <div class="w-200 bg-green">right</div>
-</section>
+你可以直接拷贝到自己的demo文件里尝试下运行效果, 也可以点击[这里](https://zj1024.github.io/assembly-css/)查看写好的例子
 
 ## 优点 ##
 
