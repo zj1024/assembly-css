@@ -24,7 +24,7 @@ assembly-css 是一个通过`sass`, `gulp` 构建完成的css库, 提供了基�
 
 ## 文档
 
-中文 | [英文](https://github.com/zj1024/assembly-css/blob/master/README-en.md)
+中文 | [English](https://github.com/zj1024/assembly-css/blob/master/README-en.md)
 
 ## 安装
 

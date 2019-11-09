@@ -1,8 +1,12 @@
 {
   "name": "assembly-css",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A library for quickly writing CSS by combining classes",
   "main": "gulpfile.js",
+  "files": [
+    "dist",
+    "lib"
+  ],
   "directories": {
     "lib": "lib"
   },
